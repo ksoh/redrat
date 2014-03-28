@@ -6,6 +6,8 @@
 
 var edge = require('edge');
 
+//test
+
 var convertImage = edge.func(function() {/*
  #r "RedRat.dll"
  #r "System.Xml.dll"
