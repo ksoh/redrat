@@ -121,7 +121,6 @@ var convertImage = edge.func(function() {/*
  */});
 
 convertImage(null, function (error) {
-    console.log(error);
     if (error) throw error;
-    console.log('The edge.png has been asynchronously converted to edge.jpg.');
+    console.log("The edge.png has been asynchronously converted to edge.jpg.");
 });
